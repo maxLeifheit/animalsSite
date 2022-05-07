@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 0;
+	text-align: center;
+	background-color: #e4edea;
+	color: #314d44;
+}
+
+h1{
+	text-align: center;
+	color: black;
+}
+
+h2 { 
+	color: blue;
+	background-color: yellow; 
+}
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+		font-size: 4em;
+ }
+
+.mobile{
+	display:none;
+}
+
+nav{
+	display: block;
+	background-color: #b3c9c2;
+	border-bottom: 3px solid #628076;
+}
+
+nav a:link{
+	color:darkblue;
+}
+
+nav a:visited{
+	color:#003333;
+}
+
+nav a:hover{
+	color:#ffffff;
+}
+
+nav a:active{
+	color:#000000;
+}
+
+nav ul{
+	list-style-type: none;
+	text-align: center;
+}
+
+nav li{
+	display: inline;
+	margin: 0px 10px;
+}
+
+main{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+header {
+	padding: 30px;
+	background-color: #b3c9c2;
+	text-align: center;
+}
+
+footer{
+	text-align: center;
+	border-top: 3px solid #628076;
+	padding: 10px;
+	background-color: #b3c9c2;
+}
+
+a:link{
+	color:purple;
+}
+
+a:visited{
+	color:purple;
+}
+
+a:hover{
+	color:blue;
+}
+a:active{
+	color:black;
+}
+
+.container-fluid{
+	padding: 20px;
+}
+
+i.fa{
+	font-size: 250px;
+}
+
+blockquote{
+	margin: 70px 0;
+}
+
+.gallery .preview img#preview {
+	padding: 0px;
+	max-width: 100%;
+	height: auto;
+	border: 5px solid #314d44;
+}
+
+.gallery .gallery-thumbnails img {
+	width: 100px;
+	height: 75px;
+	margin: 7px 5px 10px 5px;
+	border: 1px solid #314d44;
+}
